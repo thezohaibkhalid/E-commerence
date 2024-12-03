@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
-import { BsPersonExclamation, BsHeart } from "react-icons/bs";
+import { BsPersonExclamation } from "react-icons/bs";
+import { FaRegHeart } from "react-icons/fa";
+
 import { GoSearch } from "react-icons/go";
 import { LuShoppingCart } from "react-icons/lu";
 import { HiX } from "react-icons/hi";
@@ -48,7 +50,7 @@ export default function Navbar() {
           <div className="hidden lg:flex text-2xl gap-6 font-bold">
             <BsPersonExclamation className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
             <GoSearch className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
-            <BsHeart className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
+            <FaRegHeart className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
             <LuShoppingCart className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
           </div>
         </div>
@@ -58,7 +60,7 @@ export default function Navbar() {
       <footer className="lg:hidden fixed bottom-0 left-0 w-full bg-white border-t shadow-md flex justify-around items-center py-3 text-2xl font-bold z-30">
         <BsPersonExclamation className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
         <GoSearch className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
-        <BsHeart className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
+        <FaRegHeart className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
         <LuShoppingCart className="hover:text-yellow-500 cursor-pointer transition-transform duration-200 hover:scale-110" />
       </footer>
     </>
