@@ -1,12 +1,14 @@
 import React from 'react'
-import {Hero, Navbar} from './components'
+import {Hero, Navbar, BrowseTheRange, OurProducts} from './components'
 
 const App = () => {
   return (
     
-    <div>
+    <div className='font-poppins'>
       <Navbar/>
       <Hero/>
+      <BrowseTheRange/>
+      <OurProducts/>
     </div>
   )
 }
