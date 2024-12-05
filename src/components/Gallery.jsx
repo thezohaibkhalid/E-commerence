@@ -1,6 +1,6 @@
 import React from "react";
 
-const Gallery = () => {
+export default function Gallery() {
   return (
     <div className="max-w-screen-lg mx-auto py-10">
       {/* Heading */}
@@ -73,4 +73,3 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
